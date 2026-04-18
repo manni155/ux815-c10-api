@@ -11,8 +11,9 @@ body {
 
 button {
     background-color: #D8A47F;
-    color: #FFF;
-    border: none;
+    font-size: 24pt;
+    color: #E7ECEF;
+    border: solid 1px #272932;
     height: 5%;
     width: auto;
     padding: 1%;
@@ -20,11 +21,32 @@ button {
 }
 
 button:hover {
-    box-shadow: 3px 3px 3px 3px;
+    box-shadow: .5em .5em .5em .5em #272932;
+    font-weight: bold;
+    transition: .5s ease-in;
 }
 
 p {
     font-size: 20pt;
     color: red;
     text-align: center;
+}
+
+h1 {
+    font-size: 6rem;
+    color: #E7ECEF;
+    background-color: #2191FB;
+    padding: 1rem;
+    box-shadow: .5em .5em #272932;
+    border-radius: 20px;
+}
+
+div {
+    background-color: #C5DECD;
+    border-radius: 20px;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: center;
+    border: 1px solid 272932;
+    box-shadow: 1em 1em;
 }
