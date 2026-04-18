@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Robot Language</title>
     <link rel="stylesheet" href="screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <h1>API Fetching Demo</h1>
+    <h3>The following page fetches the first post from /posts on JSONPlaceholder</h3>
+    <button type="button" onclick="fetchPost()">Click here to fetch the API!</button>
+    <h2>ID:</h2><p id="postId"></p>
+    <h2>Title:</h2><p id="title"></p>
+    <h2>Body:</h2><p id="body"></p>
+    <h2>User ID:</h2><p id="userId"></p>
     <script src="index.js"></script>
   </body>
 </html>
